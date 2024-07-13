@@ -76,6 +76,7 @@ button {
   max-width: 100px;
   background-color: #3882f6;
   color: white;
+  border: none;
 }
 
 .hero-2 {
@@ -163,3 +164,47 @@ button {
   font-weight: 800;
 }
 /* End section 3 */
+
+/* Section 4 */
+.section-4 {
+  display: flex;
+  padding: 90px;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-container {
+  display: flex;
+  background-color: #3882f6;
+  padding: 40px;
+  width: 800px;
+  border-radius: 8px;
+  justify-content: space-around;
+}
+
+.action-text {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.action-subtext {
+  font-size: 12px;
+  font-weight: 300;
+  color: #e5e7eb;
+}
+
+.text-holder {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-signup-action {
+  max-width: 100px;
+  background-color: #3882f6;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 24px;
+}
+
+/* End section 4 */

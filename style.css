@@ -132,3 +132,34 @@ button {
   color: #1f2937;
 }
 /* End section 2 */
+
+/* Section 3 */
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+  background-color: #e5e7eb;
+}
+
+.quote-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+  gap: 10px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 800;
+}
+/* End section 3 */
